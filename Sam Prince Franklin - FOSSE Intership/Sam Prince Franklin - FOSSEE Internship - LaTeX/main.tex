@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% USFD Academic Report Template
+% Prof. Roger K. Moore
+% University of Sheffield
+% 30 July 2018
+% Adapted by Loïc Barrault
+% 16 September 2021
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,oneside,french]{book}
+\usepackage[margin=1.2in]{geometry}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage{listings}
+
+\begin{document}
+
+\captionsetup[figure]{margin=1.5cm,font=small,labelfont={bf},name={Figure},labelsep=colon,textfont={it}}
+\captionsetup[table]{margin=1.5cm,font=small,labelfont={bf},name={Tableau},labelsep=colon,textfont={it}}
+\SetLipsumDefault{1}
+
+\frontmatter
+
+\begin{titlepage}
+
+
+% -------------------------------------------------------------------
+% You need to edit the details here
+% -------------------------------------------------------------------
+
+\begin{center}
+{\huge \bfseries VIT Chennai}\\[1.5cm]
+\linespread{1.2}\huge {\bfseries FOSSEE INTERNSHIP}\\[1.5cm]
+\linespread{1}
+\includegraphics[width=10cm]{VITC/images/vit.png}\\\includegraphics[width=10cm]{VITC/images/fossee.png}\\[0.5cm]
+\begin{center}
+    \bfseries \huge {Interfacing Ultrasonic Sensor\\ 
+     with Arduino -Python}
+\end{center}
+\begin{center}
+     By\\
+    \bfseries Sam Prince Franklin K\\  
+\end{center}
+
+
+\begin{center}
+     Submitted To\\
+    \bfseries FOSSEE CLUB – VIT, Chennai\\  
+\end{center}
+\begin{center}
+
+Under The Guidance Of\\
+\bfseries Dr. Chanthini Baskar\\
+\end{center}
+\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\input{sections/abstract.tex}
+\tableofcontents
+\mainmatter
+\input{sections/introduction.tex}
+
+\end{document}

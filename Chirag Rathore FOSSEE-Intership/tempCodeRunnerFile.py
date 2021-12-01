@@ -1,0 +1,1 @@
+self.obj_arduino.send_msg(1,val)
